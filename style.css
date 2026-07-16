@@ -6,3 +6,28 @@
 body {
     font-family: 'segoe UI', Arial, Helvetica, sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* -----HEADER SECTION STYLE */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.dropdown-menu {
+    display: none;
+}
